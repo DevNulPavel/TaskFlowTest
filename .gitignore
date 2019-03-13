@@ -1,0 +1,44 @@
+build*/
+
+
+# XCode noise
+PLBlocks.framework/*
+*.pbxuser
+*.mode1v3
+*.pyc
+*~.nib/
+*.perspective
+*.perspectivev3
+
+# QtCreator
+*.user
+
+# old school
+.svn
+
+# osx noise
+.DS_Store
+
+# win noise
+Thumbs.db
+
+*.xcworkspace/
+xcuserdata/
+
+# eclipce project files
+.cproject
+.project
+
+#project file for KDevelop4
+*.kdev4
+.kdev_include_paths
+*.kate-swp
+*.gch
+
+#project files for netBeans
+nbproject/
+
+.idea
+
+#dolphin file manager
+.directory
