@@ -64,6 +64,8 @@ project(${PROJECT_NAME} C CXX)
 
 enable_testing()
 
+# Стандарт C++17
+set(CMAKE_CXX_STANDARD 17)
 
 ####################################################
 # Библиотеки в системе

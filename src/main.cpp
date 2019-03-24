@@ -200,6 +200,8 @@ void gatherExample(){
     // Создаем future для получения результата без очистки топологии
     std::shared_future<void> future = tf.dispatch();
     future.get();
+    
+    tf.wait_for_all();
 }
 
 int main(int argc, char *argv[]) {
